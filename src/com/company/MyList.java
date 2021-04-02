@@ -10,6 +10,7 @@ public class MyList<T extends Comparable<? super T>> {
     public MyList() {
         list = new ArrayList<T>();
     }
+
     public void add(T a) {
         list.add(a);
     }
@@ -29,6 +30,6 @@ public class MyList<T extends Comparable<? super T>> {
     @Override
     public String toString() {
         return "MyList : " +
-                " list= " + list ;
+                " list= " + list;
     }
 }

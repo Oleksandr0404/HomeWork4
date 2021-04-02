@@ -15,7 +15,7 @@ public class Main {
         System.out.println(myListInt.highest());
         System.out.println(myListInt.lowest());
 
-    MyList<String> myListStr = new MyList<>();
+        MyList<String> myListStr = new MyList<>();
         myListStr.add("AAA");
         myListStr.add("ZZZ");
         myListStr.add("WWW");
@@ -36,7 +36,7 @@ public class Main {
         System.out.println(myListChar.toString());
         System.out.println(myListChar.highest());
         System.out.println(myListChar.lowest());
-}
+    }
 }
 
 
